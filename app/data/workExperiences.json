@@ -1,0 +1,28 @@
+{
+    "workExperiences": [
+        {
+            "id": 0,
+            "role": "UI/UX & Frontend Developer",
+            "company": "Prisma Advertising",
+            "period": "Dec 2023 - Present"
+        }, 
+        {
+            "id": 1,
+            "role": "UI/UX Design Mentor",
+            "company": "Google Developer Student Clubs UPI",
+            "period": "Dec 2022 - Aug 2023"
+        },
+        {
+            "id": 2,
+            "role": "UI/UX Designer (Project)",
+            "company": "Sagara Technology",
+            "period": "Feb 2023 - Apr 2023"
+        },
+        {
+            "id": 3,
+            "role": "UI Designer",
+            "company": "Ebizmark Solutions",
+            "period": "Aug 2022 - Nov 2022"
+        }
+    ]
+}

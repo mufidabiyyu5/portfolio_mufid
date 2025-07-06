@@ -1,11 +1,11 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'Projects', href: '/#projects', current: false },
+  { name: 'Work Experiences', href: '/#work', current: false },
+  { name: 'Contact', href: '/#footer', current: false },
 ]
 
 function classNames(...classes) {
@@ -32,10 +32,9 @@ export default function Example() {
                   <a
                     key={item.name}
                     href={item.href}
-                    aria-current={item.current ? 'page' : undefined}
                     className={classNames(
                       item.current ? 'border-b border-indigo-500 text-indigo-500 font-semibold' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'px-4 py-2 text-16px font-medium',
+                      'px-4 py-2 text-16px font-medium hover:cursor-pointer',
                     )}
                   >
                     {item.name}
@@ -63,10 +62,9 @@ export default function Example() {
               key={item.name}
               as="a"
               href={item.href}
-              aria-current={item.current ? 'page' : undefined}
               className={classNames(
                 item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                'block rounded-md px-3 py-2 text-base font-medium',
+                'block rounded-md px-3 py-2 text-base font-medium hover:cursor-pointer',
               )}
             >
               {item.name}
