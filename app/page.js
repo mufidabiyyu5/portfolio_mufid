@@ -82,7 +82,7 @@ export default function Home() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl/tight font-semibold tracking-tight text-balance text-white sm:text-6xl/snug">
-              Howdy! I'm Mufid<br/> 
+              Howdy! I&apos;m Mufid<br/> 
               <Typewriter options={{
                 strings: ['Frontend Developer', 'UI / UX Designer'],
                 autoStart: true,
@@ -98,7 +98,7 @@ export default function Home() {
                 target="_blank"
                 className="flex items-center rounded-full bg-indigo-700 px-6 py-3 text-xs font-semibold sm:text-sm sm:px-8 sm:py-3 text-white shadow-xs hover:bg-indigo-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                <img src="/vuesax/bulk/document-download.svg" className="fill-white h-[20px] sm:h-[24px]" alt="Download" />
+                <Image src="/vuesax/bulk/document-download.svg" className="fill-white h-[20px] sm:h-[24px]" alt="Download" />
                 <span className="ms-2">Download Resume</span>
               </a>
               <a href="mailto:mochamadmufidabiyyu@gmail.com" className="text-xs/6 sm:text-sm font-semibold text-white">
@@ -124,12 +124,12 @@ export default function Home() {
         <div className="slide">
           {
             listLogo.map((logo, index) => (
-              <img key={index} src={logo.src} alt={logo.alt} className="h-[64px] sm:h-[100px]" />
+              <Image key={index} src={logo.src} alt={logo.alt} className="h-[64px] sm:h-[100px]" />
             ))
           }
           {
             listLogo.map((logo, index) => (
-              <img key={index} src={logo.src} alt={logo.alt} className="h-[64px] sm:h-[100px]" />
+              <Image key={index} src={logo.src} alt={logo.alt} className="h-[64px] sm:h-[100px]" />
             ))
           }
         </div>
@@ -157,7 +157,7 @@ export default function Home() {
                 return (
                   <a key={index} href={item.url} target="_blank">
                     <div className="bg-gray-900 rounded-sm transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-indigo-700 hover:cursor-pointer">
-                      <img src={item.image} alt="Project 1" className="object-cover rounded-t"/>
+                      <Image src={item.image} alt="Project 1" className="object-cover rounded-t"/>
                       <div className="p-6 gap-y-1">
                         <h2 className="text-xl font-bold text-white line-clamp-1">{item.title}</h2>
                         <p className="text-sm text-gray-400 line-clamp-2">{item.description}</p>
@@ -196,7 +196,7 @@ export default function Home() {
       </div>
       <footer id="footer" className="text-center justify-center mx-auto w-full gap-4 p-4 sm:p-16">
           <p className="text-sm sm:text-base tracking-[8px] text-gray-500 mb-4">MADE WITH ❤️ BY</p>
-          <img src="/assets/FotoMufid.png" className="rounded-full h-16 sm:h-24 mx-auto border border-white mb-4"/>
+          <Image src="/assets/FotoMufid.png" className="rounded-full h-16 sm:h-24 mx-auto border border-white mb-4"/>
           <h2 className="text-xl sm:text-3xl font-bold uppercase mb-1">Mochamad Mufid Abiyyu</h2>
           <p className="text-sm sm:text-base text-gray-500">UI/UX Designer & Frontend Developer</p>
           <div className="w-2xs sm:w-md mx-auto flex justify-evenly items-center mt-4 mb-8">
