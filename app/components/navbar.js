@@ -14,7 +14,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-transparent">
+    <Disclosure as="nav" className="bg-transparent sticky z-10">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="flex flex-1 items-center justify-between sm:items-stretch">
@@ -29,16 +29,16 @@ export default function Example() {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
-                  <a
+                  <Link
                     key={item.name}
                     href={item.href}
                     className={classNames(
-                      item.current ? 'border-b border-indigo-500 text-indigo-500 font-semibold' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                      item.current ? 'border-b border-indigo-500 text-indigo-500 font-semibold' : 'text-gray-400 hover:text-white',
                       'px-4 py-2 text-16px font-medium hover:cursor-pointer',
                     )}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
