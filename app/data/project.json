@@ -2,6 +2,14 @@
     "ux_project": [
         {
             "id": 0,
+            "slug": "ui-dashboard-store-signage",
+            "title": "UI Dashboard Store Signage",
+            "description": "Designing a user-friendly dashboard to manage digital store signage—making it easier to schedule, monitor, and control content across multiple retail locations.",
+            "image": "/thumbnail/dashboard-sign.png",
+            "url": "https://www.figma.com/proto/IxkdWtMLJKKjdeLItAsFRb/Sign-Dashboard?page-id=2%3A15&node-id=9-156&viewport=223%2C-124%2C0.1&t=1gGoehppQWQ0cV6H-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=9%3A156&show-proto-sidebar=1"
+        },
+        {
+            "id": 1,
             "slug": "ux-case-study-gofood-enhancement",
             "title": "UX Case Study Gofood Enhancement",
             "description": "An in-depth case study on optimizing GoFood’s UX. Uncovering user challenges in food ordering, and how thoughtful design solutions boosted customer satisfaction and transaction conversion rates.",
@@ -9,7 +17,7 @@
             "url": "https://mochamadmufid.notion.site/UI-UX-Improvement-Gofood-1ec2f2afe36c80ca9d32ded25b0f7f36?source=copy_link"
         }, 
         {
-            "id": 1,
+            "id": 2,
             "slug": "ui-dashboard-traffic-audience-measurement",
             "title": "UI Dashboard Traffic & Audience Measurement",
             "description": "Designing a sleek, data-driven dashboard to monitor ads traffic and audience behavior—turning complex metrics into actionable insights at a glance.",
@@ -17,7 +25,7 @@
             "url": "https://mochamadmufid.notion.site/UI-Dashboard-Traffic-Audience-Measurement-2172f2afe36c80fda7e2cdeda3a8e235?source=copy_link"
         },
         {
-            "id": 2,
+            "id": 3,
             "slug": "ux-redesign-ikea-indonesia",
             "title": "UX Redesign IKEA Indonesia",
             "description": "Analyzing pain points and reimagining the user journey for IKEA Indonesia, resulting in a faster, clearer, and more engaging experience that drives both customer satisfaction and sales growth.",
@@ -25,20 +33,12 @@
             "url": "https://mochamadmufid.notion.site/UI-UX-Redesign-IKEA-Indonesia-App-bf1c8afb0eee43c2a111483f699cd70a?source=copy_link"
         },
         {
-            "id": 3,
+            "id": 4,
             "slug": "ux-vending-machine-frestea-gratis-campaign",
             "title": "UI / UX Vending Machine Frestea Gratis Campaign",
             "description": "Designing an intuitive interface and seamless user flow for the Frestea Gratis vending machine campaign—making it effortless (and fun) for people to grab their free drink.",
             "image": "/thumbnail/ux-vm-frestea-gratis.png",
             "url": "https://mochamadmufid.notion.site/UI-UX-for-Vending-Machine-Frestea-Gratis-Campaign-1192f2afe36c80c1a69df8ae06a1db18?source=copy_link"
-        },
-        {
-            "id": 4,
-            "slug": "ux-redesign-haji-pintar-app",
-            "title": "UX Redesign Haji Pintar App",
-            "description": "Redesigning the Haji Pintar app to make planning and performing Hajj simpler, more informative, and deeply reassuring for every pilgrim.",
-            "image": "/thumbnail/ux-redesign-haji-pintar.png",
-            "url": "https://mochamadmufid.notion.site/UI-UX-Redesign-Haji-Pintar-App-6ebdb04a3875489583d69b1d4748c885?source=copy_link"
         },
         {
             "id": 5,
@@ -52,6 +52,14 @@
     "frontend_project" : [
         {
             "id": 0,
+            "slug": "front-end-ui-dashboard-store-signage",
+            "title": "Front-End Store Signage Dashboard",
+            "description": "Developing a responsive front-end dashboard to manage store signage content—designed for clarity, control, and seamless content distribution across multiple screens.",
+            "image": "/thumbnail/frontend-dashboard-sign.png",
+            "url": "https://sasa.prisma-ads.com/auth/sign-in-company"
+        },
+        {
+            "id": 1,
             "slug": "front-end-traffic-audience-measurement",
             "title": "Front-end Dashboard Traffic & Audience Measurement",
             "description": "Building a front-end dashboard that transforms complex traffic and audience data into clear, actionable insights—empowering teams to make smarter decisions, faster.",
@@ -59,7 +67,7 @@
             "url": "https://traffic.prisma-ads.com/"
         }, 
         {
-            "id": 1,
+            "id": 2,
             "slug": "front-end-online-recruitment-system",
             "title": "Online Recruitment System Prisma Advertising",
             "description": "Developing a front-end platform for Prisma Advertising’s online recruitment—delivering a clean, responsive interface that makes applying, screening, and hiring more intuitive for all users.",
@@ -67,7 +75,7 @@
             "url": "https://hris.prisma-ads.com/"
         }, 
         {
-            "id": 2,
+            "id": 3,
             "slug": "front-end-vending-machine-frestea-gratis-campaign",
             "title": "Front-end Vending Machine Frestea Gratis Campaign",
             "description": "Developing a front-end platform for Frestea Gratis vending machine campaign—making it effortless (and fun) for people to grab their free drink.",
@@ -75,7 +83,7 @@
             "url": "https://www.linkedin.com/posts/boost-ad_boostad-boostyourmood-forboostyourads-activity-7247500706960531456-l-ix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJ0vesB12zFIp14KE71Z7VgHdnmwuZvLIs"
         },
         {
-            "id": 3,
+            "id": 4,
             "slug": "front-end-dooh-dove-hair-tonic-campaign",
             "title": "Front-end DOOH Dove Hair Tonic Campaign",
             "description": "Building a sleek front-end interface for Dove Hair Tonic’s DOOH campaign—turning large screens into interactive experiences that capture attention and drive brand engagement.",
