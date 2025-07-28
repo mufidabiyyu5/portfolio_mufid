@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mufid's Portfolio Page",
+  title: "Mochamad Mufid Abiyyu | UI/UX Designer & Front End Developer",
   description: "A passionate UI/UX designer with expertise in UI/UX tools such as Figma, Miro, Maze, and also I am expert in Front End Development. Experienced design and developing user-friendly applications and systems. Proven ability to slice design to code",
 };
 
