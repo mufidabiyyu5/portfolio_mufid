@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         {children}
       </body>
       <GoogleAnalytics gaId="G-1BQ5W21NGE"/>
-      <Script id="hotjar-init" 
+      <Script id="hotjar-init" strategy="afterInteractive"
       dangerouslySetInnerHTML={{
           __html: `
             (function(h,o,t,j,a,r){
