@@ -171,7 +171,7 @@ export default function Home() {
       <div id="work" className="mx-auto max-w-xs sm:max-w-4xl py-20 sm:py-12 lg:py-20">
         <div className="block text-center">
           <h1 className="text-4xl/tight font-semibold tracking-tight text-balance text-white sm:text-5xl/snug">
-            Sneak Peek of My Work Experiences 👀
+            Sneak Peek of My Journey 👀
           </h1>
           <p className="mt-4 text-base font-medium text-pretty text-gray-300 sm:text-lg/8">
             A quick glimpse into my professional journey, featuring highlights from <br/>my UI/UX design and frontend development roles.
