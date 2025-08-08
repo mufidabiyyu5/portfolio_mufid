@@ -73,8 +73,8 @@ export default function Home() {
             className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ffe7f1] to-[#c4c1f3] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
           />
         </div>
-        <div className="mx-auto max-w-xs sm:max-w-3xl py-20 sm:py-12 lg:py-20">
-          <div className="hidden sm:mb-4 sm:flex sm:justify-center bg-[#ffffff4d] py-1 px-4 rounded-full mx-auto w-fit">
+        <div className="mx-auto max-w-xs sm:max-w-3xl py-10 sm:py-12 lg:py-10">
+          <div className="mb-6 sm:mb-4 flex sm:justify-center bg-[#ffffff4d] py-1 px-4 rounded-full mx-auto w-fit">
             <p className="text-white">
               👋 <span className="ms-2">Mochamad Mufid Abiyyu</span>
             </p>
@@ -102,6 +102,44 @@ export default function Home() {
               </a>
               <a href="mailto:mochamadmufidabiyyu@gmail.com" className="text-xs/6 sm:text-sm font-semibold text-white">
                 Contact Me <span aria-hidden="true">→</span>
+              </a>
+            </div>
+            <div className="w-3xs mx-auto flex justify-evenly items-center mt-8 mb-8">
+              <a href="https://www.linkedin.com/in/mufid-abiyyu/" target="_blank">
+                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-500 hover:text-white hover:cursor-pointer" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_127_10)">
+                    <path d="M18.335 18.339H15.67V14.162C15.67 13.166 15.65 11.884 14.28 11.884C12.891 11.884 12.679 12.968 12.679 14.089V18.339H10.013V9.75H12.573V10.92H12.608C12.966 10.246 13.836 9.533 15.136 9.533C17.836 9.533 18.336 11.311 18.336 13.624V18.339H18.335ZM7.003 8.575C6.79956 8.57526 6.59806 8.53537 6.41006 8.45761C6.22207 8.37984 6.05127 8.26574 5.90746 8.12184C5.76365 7.97793 5.64965 7.80706 5.57201 7.61901C5.49437 7.43097 5.4546 7.22944 5.455 7.026C5.4552 6.71983 5.54618 6.4206 5.71644 6.16615C5.8867 5.91169 6.12859 5.71343 6.41153 5.59645C6.69447 5.47947 7.00574 5.44902 7.30598 5.50894C7.60622 5.56886 7.88196 5.71647 8.09831 5.93311C8.31466 6.14974 8.46191 6.42566 8.52145 6.72598C8.58099 7.0263 8.55013 7.33753 8.43278 7.62032C8.31544 7.9031 8.11687 8.14474 7.86219 8.31467C7.60751 8.4846 7.30917 8.5752 7.003 8.575ZM8.339 18.339H5.666V9.75H8.34V18.339H8.339ZM19.67 3H4.329C3.593 3 3 3.58 3 4.297V19.703C3 20.42 3.594 21 4.328 21H19.666C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3H19.67Z" fill="currentColor"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_127_10">
+                      <rect width="24" height="24" fill="none"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="https://github.com/mufidabiyyu5" target="_blank">
+                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-500 hover:text-white hover:cursor-pointer" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_127_22)">
+                    <path d="M12 2C6.475 2 2 6.475 2 12C1.99887 14.0993 2.65882 16.1456 3.88622 17.8487C5.11362 19.5517 6.84615 20.8251 8.838 21.488C9.338 21.575 9.525 21.275 9.525 21.012C9.525 20.775 9.512 19.988 9.512 19.15C7 19.613 6.35 18.538 6.15 17.975C6.037 17.687 5.55 16.8 5.125 16.562C4.775 16.375 4.275 15.912 5.112 15.9C5.9 15.887 6.462 16.625 6.65 16.925C7.55 18.437 8.988 18.012 9.562 17.75C9.65 17.1 9.912 16.663 10.2 16.413C7.975 16.163 5.65 15.3 5.65 11.475C5.65 10.387 6.037 9.488 6.675 8.787C6.575 8.537 6.225 7.512 6.775 6.137C6.775 6.137 7.612 5.875 9.525 7.163C10.3391 6.93706 11.1802 6.82334 12.025 6.825C12.875 6.825 13.725 6.937 14.525 7.162C16.437 5.862 17.275 6.138 17.275 6.138C17.825 7.513 17.475 8.538 17.375 8.788C18.012 9.488 18.4 10.375 18.4 11.475C18.4 15.313 16.063 16.163 13.838 16.413C14.2 16.725 14.513 17.325 14.513 18.263C14.513 19.6 14.5 20.675 14.5 21.013C14.5 21.275 14.688 21.587 15.188 21.487C17.173 20.8168 18.8979 19.541 20.1199 17.8392C21.3419 16.1373 21.9994 14.0951 22 12C22 6.475 17.525 2 12 2Z" fill="currentColor"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_127_22">
+                      <rect width="24" height="24" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+              <a href="https://dribbble.com/mufidabiyyu" target="_blank">
+                <svg className="w-6 h-6 sm:w-8 sm:h-8 text-gray-500 hover:text-white hover:cursor-pointer" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clipPath="url(#clip0_127_18)">
+                    <path d="M19.989 11.572C19.907 9.99791 19.3596 8.4836 18.416 7.221C18.1285 7.53063 17.8212 7.82124 17.496 8.091C16.4969 8.92085 15.3805 9.59819 14.183 10.101C14.35 10.451 14.503 10.79 14.638 11.11V11.113C14.6761 11.2024 14.7128 11.2924 14.748 11.383C16.262 11.213 17.858 11.275 19.405 11.484C19.611 11.512 19.805 11.542 19.989 11.572ZM10.604 4.122C11.5785 5.49517 12.4772 6.92064 13.296 8.392C14.519 7.91 15.53 7.302 16.344 6.625C16.6266 6.39213 16.8925 6.13985 17.14 5.87C15.701 4.65972 13.8803 3.99733 12 4C11.532 3.99968 11.0649 4.04017 10.604 4.121V4.122ZM4.253 9.997C4.93423 9.97981 5.61464 9.93878 6.293 9.874C7.93264 9.72734 9.55828 9.4525 11.155 9.052C10.3205 7.60221 9.41955 6.19171 8.455 4.825C7.42472 5.3354 6.51626 6.06141 5.79124 6.95379C5.06623 7.84617 4.54162 8.88404 4.253 9.997ZM5.783 17.035C6.171 16.468 6.681 15.83 7.358 15.136C8.812 13.646 10.528 12.486 12.514 11.846L12.576 11.828C12.411 11.464 12.256 11.139 12.1 10.833C10.264 11.368 8.33 11.702 6.403 11.875C5.463 11.96 4.62 11.997 4 12.003C3.99823 13.8356 4.62729 15.6128 5.783 17.035ZM15.005 19.415C14.6194 17.4703 14.0735 15.5607 13.373 13.706C11.371 14.433 9.776 15.496 8.543 16.764C8.0454 17.2664 7.60382 17.8213 7.226 18.419C8.60481 19.4478 10.2797 20.0025 12 20C13.0299 20.0015 14.0504 19.8035 15.005 19.417V19.415ZM16.878 18.34C18.4393 17.1398 19.5028 15.4057 19.865 13.47C19.525 13.385 19.094 13.3 18.62 13.234C17.5661 13.0822 16.4968 13.0711 15.44 13.201C16.0351 14.8798 16.5155 16.5961 16.878 18.34ZM12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22Z" fill="currentColor"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_127_18">
+                      <rect width="24" height="24" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
               </a>
             </div>
           </div>
@@ -191,6 +229,14 @@ export default function Home() {
               )
             })
           }
+        </div>
+      </div>
+      <div className="hidden sm:block mx-auto max-w-xs sm:max-w-4xl py-10 sm:py-6 lg:py-10">
+        <div className="flex justify-between items-center bg-gray-900 p-8 rounded-lg">
+            <h2 className="text-xl font-bold text-white">Interested Working With Me?</h2>
+            <a href="mailto:mochamadmufidabiyyu@gmail.com" className="text-sm font-semibold text-white bg-indigo-700 py-6 sm:px-6 sm:py-4 rounded-lg hover:bg-indigo-600 hover:cursor-pointer transition duration-300 ease-in-out">
+              Let&apos;s Connect <span aria-hidden="true">→</span>
+            </a>
         </div>
       </div>
       <footer id="footer" className="text-center justify-center mx-auto w-full gap-4 p-4 sm:p-16">
