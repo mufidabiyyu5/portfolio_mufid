@@ -83,7 +83,7 @@ export default function Home() {
             <h1 className="text-4xl/tight font-semibold tracking-tight text-balance text-white sm:text-6xl/snug">
               Howdy! I&apos;m Mufid<br/> 
               <Typewriter options={{
-                strings: ['Frontend Developer', 'UI / UX Designer'],
+                strings: ['UI / UX Designer', 'Frontend Developer'],
                 autoStart: true,
                 loop: true,
               }} />
