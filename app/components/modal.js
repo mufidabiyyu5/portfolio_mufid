@@ -6,7 +6,7 @@ export default function Modal({ isOpen, onClose, data }) {
       <div className="fixed inset-0 bg-black/70" aria-hidden="true" />
       <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
         <DialogPanel className="w-lg bg-[#0a0a0a] backdrop-blur-2xl rounded-lg">
-          <img src={data?.image} alt={data?.title} className="w-full h-72 max-md:h-56 object-cover rounded-t-lg"/>
+          <img src={data?.image} alt={data?.title} className="w-full h-72 max-md:h-50 object-cover rounded-t-lg"/>
           <div className="p-6 flex flex-col gap-y-2">
             <DialogTitle className="text-2xl font-bold text-white">{data?.title}</DialogTitle>
             <p className="text-sm text-gray-400">{data?.description}</p>
