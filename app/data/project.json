@@ -2,51 +2,66 @@
     "ux_project": [
         {
             "id": 0,
+            "slug": "linkreator",
+            "title": "Linkreator",
+            "description": "Linkreator.id is an all-in-one landing page builder platform specifically designed to accelerate the transition of creators and businesses to the digital ecosystem. This platform allows users to build interactive landing pages in minutes without requiring complex design skills.",
+            "image": "/thumbnail/ux-linkreator.png",
+            "url": "https://linkreator.id/",
+            "case_study": "https://drive.google.com/drive/folders/1Bs4rRb300vk2RjGeNa318u3eC0Z3vACJ?usp=sharing"
+        },
+        {
+            "id": 1,
             "slug": "ui-dashboard-store-signage",
             "title": "UI Dashboard Store Signage",
             "description": "Designing a user-friendly dashboard to manage digital store signage—making it easier to schedule, monitor, and control content across multiple retail locations.",
             "image": "/thumbnail/dashboard-sign.png",
-            "url": "https://www.figma.com/proto/IxkdWtMLJKKjdeLItAsFRb/Sign-Dashboard?page-id=2%3A15&node-id=9-156&viewport=223%2C-124%2C0.1&t=1gGoehppQWQ0cV6H-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=9%3A156&show-proto-sidebar=1"
+            "url": "https://www.figma.com/proto/IxkdWtMLJKKjdeLItAsFRb/Sign-Dashboard?page-id=2%3A15&node-id=9-156&viewport=223%2C-124%2C0.1&t=1gGoehppQWQ0cV6H-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=9%3A156&show-proto-sidebar=1",
+            "case_study": null
         },
         {
-            "id": 1,
+            "id": 2,
             "slug": "ux-case-study-gofood-enhancement",
             "title": "UX Case Study Gofood Enhancement",
             "description": "An in-depth case study on optimizing GoFood’s UX. Uncovering user challenges in food ordering, and how thoughtful design solutions boosted customer satisfaction and transaction conversion rates.",
             "image": "/thumbnail/ux-redesign-gofood-enhancement.png",
-            "url": "https://mochamadmufid.notion.site/UI-UX-Improvement-Gofood-1ec2f2afe36c80ca9d32ded25b0f7f36?source=copy_link"
+            "url": null,
+            "case_study": "https://mochamadmufid.notion.site/UI-UX-Improvement-Gofood-1ec2f2afe36c80ca9d32ded25b0f7f36?source=copy_link"
         }, 
         {
-            "id": 2,
+            "id": 3,
             "slug": "ui-dashboard-traffic-audience-measurement",
             "title": "UI Dashboard Traffic & Audience Measurement",
             "description": "Designing a sleek, data-driven dashboard to monitor ads traffic and audience behavior—turning complex metrics into actionable insights at a glance.",
             "image": "/thumbnail/dashboard-traffic.png",
-            "url": "https://mochamadmufid.notion.site/UI-Dashboard-Traffic-Audience-Measurement-2172f2afe36c80fda7e2cdeda3a8e235?source=copy_link"
+            "url": null,
+            "case_study": "https://mochamadmufid.notion.site/UI-Dashboard-Traffic-Audience-Measurement-2172f2afe36c80fda7e2cdeda3a8e235?source=copy_link"
         },
         {
-            "id": 3,
+            "id": 4,
             "slug": "ux-redesign-ikea-indonesia",
             "title": "UX Redesign IKEA Indonesia",
             "description": "Analyzing pain points and reimagining the user journey for IKEA Indonesia, resulting in a faster, clearer, and more engaging experience that drives both customer satisfaction and sales growth.",
             "image": "/thumbnail/ux-redesign-ikea-indonesia.png",
-            "url": "https://mochamadmufid.notion.site/UI-UX-Redesign-IKEA-Indonesia-App-bf1c8afb0eee43c2a111483f699cd70a?source=copy_link"
+            "url": null,
+            "case_study": "https://mochamadmufid.notion.site/UI-UX-Redesign-IKEA-Indonesia-App-bf1c8afb0eee43c2a111483f699cd70a?source=copy_link"
         },
         {
-            "id": 4,
+            "id": 5,
             "slug": "ux-vending-machine-frestea-gratis-campaign",
             "title": "UI / UX Vending Machine Frestea Gratis Campaign",
             "description": "Designing an intuitive interface and seamless user flow for the Frestea Gratis vending machine campaign—making it effortless (and fun) for people to grab their free drink.",
             "image": "/thumbnail/ux-vm-frestea-gratis.png",
-            "url": "https://mochamadmufid.notion.site/UI-UX-for-Vending-Machine-Frestea-Gratis-Campaign-1192f2afe36c80c1a69df8ae06a1db18?source=copy_link"
+            "url": "https://www.linkedin.com/posts/boost-ad_boostad-boostyourmood-forboostyourads-activity-7247500706960531456-l-ix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADJ0vesB12zFIp14KE71Z7VgHdnmwuZvLIs",
+            "case_study": "https://mochamadmufid.notion.site/UI-UX-for-Vending-Machine-Frestea-Gratis-Campaign-1192f2afe36c80c1a69df8ae06a1db18?source=copy_link"
         },
         {
-            "id": 5,
+            "id": 6,
             "slug": "ux-redesign-majushop-id",
             "title": "UX Redesign MajuShop.id",
             "description": "Redesigning MajuShop.id to make shopping for groceries easier, more informative, and deeply reassuring for every customer.",
             "image": "/thumbnail/ux-redesign-majushop.png",
-            "url": "https://mochamadmufid.notion.site/UI-UX-Redesign-Majushop-id-2172f2afe36c8017a130cf91cfabf564?source=copy_link"
+            "url": null,
+            "case_study": "https://mochamadmufid.notion.site/UI-UX-Redesign-Majushop-id-2172f2afe36c8017a130cf91cfabf564?source=copy_link"
         }
     ],
     "frontend_project" : [

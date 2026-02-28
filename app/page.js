@@ -7,12 +7,15 @@ import Typewriter from 'typewriter-effect';
 
 import dataProject from "./data/project.json";
 import dataExperiences from "./data/workExperiences.json";
+import Modal from "./components/modal";
 
 export default function Home() {
 
   const [data, setData] = useState([]);
-  const [dataWork, setDataWork] = useState(dataExperiences.workExperiences);
+  const [dataWork] = useState(dataExperiences.workExperiences);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedData, setSelectedData] = useState(null);
 
   const listLogo = [
     { src: "/assets/figma-logo.png", alt: "Figma" },
@@ -57,8 +60,14 @@ export default function Home() {
     }, 500);
   }
 
+  const handleClickProject = (item) => {
+    setSelectedData(item);
+    setIsOpen(true);
+  }
+
   return (
     <>
+      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)} data={selectedData}/>
       <Navbar />
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <div
@@ -192,15 +201,13 @@ export default function Home() {
             {
               data?.map((item, index) => {
                 return (
-                  <a key={index} href={item.url} target="_blank">
-                    <div className="bg-gray-900 rounded-sm transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-indigo-700 hover:cursor-pointer">
-                      <img src={item.image} alt="Project 1" className="object-cover rounded-t"/>
-                      <div className="p-6 gap-y-1">
-                        <h2 className="text-xl font-bold text-white line-clamp-1">{item.title}</h2>
-                        <p className="text-sm text-gray-400 line-clamp-2">{item.description}</p>
-                      </div>
+                  <div key={index} onClick={() => handleClickProject(item)} className="bg-gray-900 rounded-sm transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-indigo-700 hover:cursor-pointer">
+                    <img src={item.image} alt="Project 1" className="object-cover rounded-t"/>
+                    <div className="p-6 gap-y-1">
+                      <h2 className="text-xl font-bold text-white line-clamp-1">{item.title}</h2>
+                      <p className="text-sm text-gray-400 line-clamp-2">{item.description}</p>
                     </div>
-                  </a>
+                  </div>
                 )
               })
             }
