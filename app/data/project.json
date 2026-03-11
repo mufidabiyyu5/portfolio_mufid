@@ -67,6 +67,14 @@
     "frontend_project" : [
         {
             "id": 0,
+            "slug": "linkreator",
+            "title": "Linkreator",
+            "description": "Linkreator.id is an all-in-one landing page builder platform specifically designed to accelerate the transition of creators and businesses to the digital ecosystem. This platform allows users to build interactive landing pages in minutes without requiring complex design skills.",
+            "image": "/thumbnail/frontend-linkreator.png",
+            "url": "https://linkreator.id/"
+        },
+        {
+            "id": 0,
             "slug": "front-end-ui-dashboard-store-signage",
             "title": "Front-End Store Signage Dashboard",
             "description": "Developing a responsive front-end dashboard to manage store signage content—designed for clarity, control, and seamless content distribution across multiple screens.",
