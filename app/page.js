@@ -98,7 +98,7 @@ export default function Home() {
               }} />
             </h1>
             <p className="mt-4 text-base font-medium text-pretty text-gray-300 sm:text-xl/8">
-              A UI/UX Designer & Frontend Developer from Indonesia with more than 2 years of experience who love to creates content on instagram
+              A UI/UX Designer & Frontend Developer from Indonesia with more than 3 years of experience who love to creates content on instagram
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
