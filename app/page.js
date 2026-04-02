@@ -8,6 +8,7 @@ import Typewriter from 'typewriter-effect';
 import dataProject from "./data/project.json";
 import dataExperiences from "./data/workExperiences.json";
 import Modal from "./components/modal";
+import useGreeting from "./hooks/useGreeting";
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedData, setSelectedData] = useState(null);
+  const greeting = useGreeting();
 
   const listLogo = [
     { src: "/assets/figma-logo.png", alt: "Figma" },
@@ -82,22 +84,22 @@ export default function Home() {
             className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ffe7f1] to-[#c4c1f3] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
           />
         </div>
-        <div className="mx-auto max-w-xs sm:max-w-3xl py-10 sm:py-12 lg:py-10">
+        <div className="mx-auto max-w-full sm:max-w-3xl py-10 sm:py-12 lg:py-10">
           <div className="mb-6 sm:mb-4 flex sm:justify-center bg-[#ffffff4d] py-1 px-4 rounded-full mx-auto w-fit">
             <p className="text-white">
               👋 <span className="ms-2">Mochamad Mufid Abiyyu</span>
             </p>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl/tight font-semibold tracking-tight text-balance text-white sm:text-6xl/snug">
-              Howdy! I&apos;m Mufid<br/> 
+            <h1 className="text-4xl/tight font-semibold tracking-tight text-balance text-white sm:text-5xl/snug">
+              {greeting} I&apos;m Mufid<br/> 
               <Typewriter options={{
                 strings: ['UI / UX Designer', 'Frontend Developer'],
                 autoStart: true,
                 loop: true,
               }} />
             </h1>
-            <p className="mt-4 text-base font-medium text-pretty text-gray-300 sm:text-xl/8">
+            <p className="mt-4 text-base font-medium text-pretty text-gray-300 sm:text-lg/8">
               A UI/UX Designer with experience in crafting digital products that balance user needs and business goals. I turn research insights into intuitive design solutions and bring them to life with practical front-end implementation.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
