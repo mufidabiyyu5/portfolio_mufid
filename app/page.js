@@ -111,7 +111,7 @@ export default function Home() {
                 <Image src="/vuesax/bulk/document-download.svg" width="24" height="24" className="fill-white w-[20px] h-[20px] sm:w-[24px] sm:h-[24px]" alt="Download" />
                 <span className="ms-2">Download Resume</span>
               </a>
-              <a href="mailto:mochamadmufidabiyyu@gmail.com" className="text-xs/6 sm:text-sm font-semibold text-white">
+              <a href="https://wa.me/6285155475622" target="_blank" className="text-xs/6 sm:text-sm font-semibold text-white">
                 Contact Me <span aria-hidden="true">→</span>
               </a>
             </div>
