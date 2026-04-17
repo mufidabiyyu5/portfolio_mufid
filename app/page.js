@@ -94,13 +94,14 @@ export default function Home() {
             <h1 className="text-4xl/tight font-semibold tracking-tight text-balance text-white sm:text-5xl/snug">
               {greeting} I&apos;m Mufid<br/> 
               <Typewriter options={{
-                strings: ['UI / UX Designer', 'Frontend Developer'],
+                strings: ['UI / UX Designer', 'Frontend Developer', "Based in Indonesia"],
                 autoStart: true,
                 loop: true,
               }} />
             </h1>
             <p className="mt-4 text-base font-medium text-pretty text-gray-300 sm:text-lg/8">
-              A UI/UX Designer with experience in crafting digital products that balance user needs and business goals. I turn research insights into intuitive design solutions and bring them to life with practical front-end implementation.
+              <span className="font-semibold">I design digital products that are simple to use and built to convert. </span>
+               Helping businesses turn complex ideas into intuitive user experiences.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -112,7 +113,7 @@ export default function Home() {
                 <span className="ms-2">Download Resume</span>
               </a>
               <a href="https://wa.me/6285155475622" target="_blank" className="text-xs/6 sm:text-sm font-semibold text-white">
-                Contact Me <span aria-hidden="true">→</span>
+                Get In Touch <span aria-hidden="true">→</span>
               </a>
             </div>
             <div className="w-3xs mx-auto flex justify-evenly items-center mt-8 mb-8">
@@ -188,7 +189,8 @@ export default function Home() {
               Selected Works & Projects
             </h1>
             <p className="mt-4 text-base font-medium text-pretty text-gray-300 sm:text-lg/8">
-              Highlights of my UI/UX design and frontend development work, where I turn <br/>ideas into engaging, user-centered products.
+              I believe good design is not just about aesthetics. It&apos;s about making things <br/>
+              easier, clearer, and more meaningful for users.
             </p>
             <div className="grid grid-cols-2 items-center justify-center gap-x-2 py-0.5 px-2 sm:p-2 rounded-full bg-gray-900 mt-8 w-fit mx-auto">
               <button id="ux-project" onClick={() => handleClickButtonProject('ux')} className="text-sm font-semibold text-white bg-indigo-700 py-3 px-6 rounded-full transition-all duration-1000 ease-in-out sm:text-base hover:cursor-pointer">
@@ -244,7 +246,7 @@ export default function Home() {
         <div className="flex justify-between items-center bg-gray-900 p-8 rounded-lg">
             <h2 className="text-xl font-bold text-white">Interested Working With Me?</h2>
             <a href="mailto:mochamadmufidabiyyu@gmail.com" className="text-sm font-semibold text-white bg-indigo-700 py-6 sm:px-6 sm:py-4 rounded-lg hover:bg-indigo-600 hover:cursor-pointer transition duration-300 ease-in-out">
-              Let&apos;s Connect <span aria-hidden="true">→</span>
+              Let&apos;s Work Together <span aria-hidden="true">→</span>
             </a>
         </div>
       </div>
